@@ -1,0 +1,38 @@
+.foodWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  padding: 10px;
+  background-color: #a89292b3;
+  border-radius: 10px;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.content > div > p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.gotobag {
+  text-decoration: none;
+}
+
+.gotobag > div {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+}

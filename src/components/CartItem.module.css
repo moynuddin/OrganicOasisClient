@@ -1,0 +1,62 @@
+.cartWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.details .price {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.details .name {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.qtySelector {
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fakePrice {
+  text-decoration: line-through;
+}
+
+.discount {
+  color: rgb(212, 9, 9);
+}
+
+.deleteIcon {
+  flex: 1 0 0;
+  text-align: end;
+}
+
+.deleteIcon > * {
+  cursor: pointer;
+}

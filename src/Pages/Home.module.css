@@ -1,0 +1,21 @@
+.selectOptions {
+  padding: 6px;
+  border: 1px solid #000;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.selector {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 38px;
+}
+
+.homeWrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  align-items: flex-start;
+  justify-items: center;
+}

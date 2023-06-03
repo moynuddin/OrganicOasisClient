@@ -1,0 +1,119 @@
+.navWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.link {
+  color: #eee;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.brand {
+  font-family: "Sacramento";
+  font-size: 22px;
+}
+
+.profile {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.signin {
+  background-color: #eee;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 10px;
+}
+
+.searchbar {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  color: #000;
+  top: 22%;
+  left: 2%;
+}
+
+.searchbar > .searchInput {
+  width: 350px;
+  height: 40px;
+  padding: 5px 8px 5px 35px;
+  border: none;
+  outline: 0;
+  border-radius: 10px;
+}
+
+.navs {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.cartWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.cartWrapper > p {
+  background-color: rgb(12, 133, 12);
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 5px;
+  gap: 4px;
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+  width: 135px;
+  text-align: center;
+  right: 0;
+  top: 50px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.links {
+  padding: 10px;
+  background-color: #050505bd;
+  color: #eee;
+  margin-bottom: 10px;
+  transition: 0.2s ease-out;
+  border-radius: 10px;
+}
+.links:hover {
+  background-color: #050505;
+}
+
+.links a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.username:focus-within > .dropdown {
+  display: block;
+}
